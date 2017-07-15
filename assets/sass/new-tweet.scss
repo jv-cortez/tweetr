@@ -6,7 +6,6 @@
     -webkit-margin-before: .15em;
     -webkit-margin-after: .5em;  
 }
-
 .form-layout{
     padding: 4px;
 
@@ -15,6 +14,7 @@
     background-color: gainsboro;
     border: 1px solid silver;
     border-radius: 5px;
+    display: none;
     margin: 2em;
     margin-top: 3em;
     padding: 5px;
@@ -29,6 +29,7 @@
 }
 
 .tweet-button{
+   cursor: pointer;
    flex-grow: 0;
 }
 .tweet-button:hover{
