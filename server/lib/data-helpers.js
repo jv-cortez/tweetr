@@ -7,8 +7,8 @@ module.exports = function makeDataHelpers(db) {
       db.collection('tweets').insertOne(newTweet, callback)
     },
 
-    getTweets: function (newTweet) {
-      db.collection("tweets").find().toArray(newTweet);
+    getTweets: function (callback) {
+      db.collection("tweets").find().toArray(callback);
     }
   }
 };
