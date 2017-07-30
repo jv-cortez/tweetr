@@ -10,13 +10,6 @@ This repository is the starter code for the project: Students will fork and clon
 !["screenshot of hovered compose button"](https://github.com/jv-cortez/tweetr/blob/master/docs-images/hovered-compose-button.png)
 !["screenshot of tweeter footer"](https://github.com/jv-cortez/tweetr/blob/master/docs-images/tweeter-footer.png)
 
-## Getting Started
-
-1. Fork this repository, then clone your fork of this repository.
-2. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
-4. Go to <http://localhost:8080/> in your browser.
-
 ## Dependencies
 
 - Express
